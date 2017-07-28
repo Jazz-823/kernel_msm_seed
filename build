@@ -19,9 +19,9 @@ echo "House cleaned, lets build a kernel!!!"
 echo
 #
 # Lets set the kernel defconfig
-echo "defconfig = h220_defconfig"
+echo "defconfig = msm8916-perf_defconfig"
 echo
-ARCH=arm CROSS_COMPILE=~/android_prebuilt_toolchains/arm-eabi-4.8/bin/arm-eabi- make h220_defconfig
+ARCH=arm CROSS_COMPILE=~/android_prebuilt_toolchains/arm-eabi-4.8/bin/arm-eabi- make msm8916-perf_defconfig
 #
 # Let's build a kernel
 echo
